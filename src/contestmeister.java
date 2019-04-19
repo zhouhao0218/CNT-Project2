@@ -46,7 +46,18 @@ public class contestmeister {
 		        		writer.writeInt(choice);
 		        		client.close();
 		        	}else if(choice == (int)'h') {
-		        		
+		        		System.out.println("Use the following commands: ");
+						System.out.println("p: put a question in the bank");
+						System.out.println("d: delete question from the bank");
+						System.out.println("g: get question from the bank");
+						System.out.println("s: set the contest");
+						System.out.println("a: add question to contest");
+						System.out.println("b: begin a contest");
+						System.out.println("l: list contests information");
+						System.out.println("r: review specific contest information");
+						System.out.println("k: terminate the server");
+						System.out.println("q: terminate the client");
+						System.out.println("h: help");
 		        	}
 	        	}
 	        }
